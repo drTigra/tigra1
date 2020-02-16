@@ -1,0 +1,19 @@
+weather={
+    'city':'Moscow',
+    'temperature':'20'
+}
+print(weather.get('city'))
+weather['temperature']=int(weather['temperature'])-5
+print(weather)
+a=weather.get('country',0)
+print(a)
+weather['coumtry']='Russia'
+weather['date']='16/02/20'
+print(weather)
+print(len(weather))
+weather['place']='Earth'
+print(weather)
+weather['city']='Orel'
+print(weather)
+weather['city']='Moscow'
+print(weather)
